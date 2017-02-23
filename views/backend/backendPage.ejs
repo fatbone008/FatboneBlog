@@ -1,0 +1,55 @@
+<%- include('../header') %>
+
+<div class="jumbotron" style="background: url(images/background.jpg) no-repeat 50% 40%; padding:5em 0;">
+    <div class="container">
+        <h2>Fatbone Blog Article Management Page</h2>
+    </div>
+</div>
+<div class="container-fliud">
+    <div class="row" style="margin: 0;">
+        <div class="col-sm-3" id="articles-sidebar">
+            <div class="list-group">
+                <a href="#" class="list-group-item active">
+                    <h4>This is a Article</h4>
+                    <p class="small text-right">2017.02.10</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4>This is a Article</h4>
+                    <p class="small text-right">2017.02.10</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4>This is a Article</h4>
+                    <p class="small text-right">2017.02.10</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- md编辑器 -->
+        <div id="editor" class="col-sm-7 col-sm-offset-1">
+            <form method="post" class="ui form segment" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="title">
+                        Title
+                    </label>
+                    <input name="title" type="text" class="form-control" placeholder="Enter some title">
+                </div>
+                <div class="form-group">
+                    <label for="content">Content</label>
+                    <textarea id="some-textarea" name="content" class="form-control" data-provide="markdown"
+                              rows="30"></textarea>
+                </div>
+                <div class="pull-right form-inline">
+                    <label class="checkbox">
+                        <input name="publish" type="checkbox"> Publish
+                    </label>
+                    <button type="submit" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-ok"></span>
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include('../footer') %>
