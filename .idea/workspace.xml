@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfc142e9-1d35-49e2-b646-66c510b71127" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/mongoose.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-formidable/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-formidable/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-formidable/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-formidable/lib/middleware.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/express-formidable/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/404.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/backend/index.js" afterPath="$PROJECT_DIR$/routes/backend/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/backend/backendPage.ejs" afterPath="$PROJECT_DIR$/views/backend/backendPage.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.ejs" afterPath="$PROJECT_DIR$/views/header.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -431,7 +418,7 @@
       <workItem from="1489119229617" duration="460000" />
       <workItem from="1489293928671" duration="4651000" />
       <workItem from="1489371274276" duration="109000" />
-      <workItem from="1489371397800" duration="11208000" />
+      <workItem from="1489371397800" duration="11248000" />
     </task>
     <task id="LOCAL-00001" summary="访问后台页面；&#10;提交文章路由可用。&#10;&#10;下一步进行数据库接入。">
       <created>1487818561145</created>
@@ -440,11 +427,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487818561145</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="数据库接入完成。后台管理页面列表展示成功。&#10;&#10;下一步，前台页面设计。">
+      <created>1490517897525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490517897525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51429000" />
+    <option name="totallyTimeSpent" value="51469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -477,7 +471,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="访问后台页面；&#10;提交文章路由可用。&#10;&#10;下一步进行数据库接入。" />
-    <option name="LAST_COMMIT_MESSAGE" value="访问后台页面；&#10;提交文章路由可用。&#10;&#10;下一步进行数据库接入。" />
+    <MESSAGE value="数据库接入完成。后台管理页面列表展示成功。&#10;&#10;下一步，前台页面设计。" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库接入完成。后台管理页面列表展示成功。&#10;&#10;下一步，前台页面设计。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
