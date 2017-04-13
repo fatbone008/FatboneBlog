@@ -1,0 +1,25 @@
+@import "variables.less";
+@import "mixins.less";
+
+.intro-header {
+  background-color: @gray-light;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  .background-cover;
+  // NOTE: Background images are set within the HTML using inline CSS!
+  margin-bottom: 50px;
+  .site-heading {
+    padding:100px 0 50px;
+    color:white;
+    @media only screen and (min-width:768px){
+      padding: 100px 0;
+    }
+  }
+  .site-heading {
+    text-align: center;
+    font-size: 50px;
+    .subheading {
+      font-size: 24px;
+    }
+  }
+}
