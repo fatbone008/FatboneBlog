@@ -1,6 +1,7 @@
 @import "variables.less";
 @import "mixins.less";
 
+//Header
 .intro-header {
   background-color: @gray-light;
   background: no-repeat center center;
@@ -9,17 +10,75 @@
   // NOTE: Background images are set within the HTML using inline CSS!
   margin-bottom: 50px;
   .site-heading {
-    padding:100px 0 50px;
-    color:white;
-    @media only screen and (min-width:768px){
+    padding: 100px 0 50px;
+    color: white;
+    @media only screen and (min-width: 768px) {
       padding: 100px 0;
     }
   }
   .site-heading {
     text-align: center;
-    font-size: 50px;
+    h1 {
+      margin-top: 0;
+      font-size: 50px;
+    }
     .subheading {
       font-size: 24px;
+      line-height: 1.1;
+      display: block;
+      .sans-serif-font;
+      font-weight: 300;
+      margin: 10px 0 0;
+    }
+    @media only screen and (min-width: 768px) {
+      h1 {
+        font-size: 80px;
+      }
+    }
+  }
+}
+
+//Post preview pages
+.post-preview {
+  > a {
+    color: @gray-dark;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: @theme-primary;
+    }
+    > .post-title {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    > .post-subtitle {
+      margin: 0;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+  }
+  > .post-meta {
+    color: @gray-light;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0px;
+    > a {
+      text-decoration: none;
+      color: @gray-light;
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+        color: @theme-primary;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    > a {
+      > .post-title {
+        font-size: 36px;
+      }
     }
   }
 }
